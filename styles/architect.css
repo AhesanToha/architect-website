@@ -9,11 +9,13 @@
 .btn-primary {
   color: #fff;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 600;
   border-radius: 8px;
   background: #ff900e;
   padding: 20px 24px;
+  border: none;
+  cursor: pointer;
 }
 
 /* Header styles */
@@ -48,7 +50,7 @@ nav ul a {
 
 /* Banner styles */
 .banner-content {
-  min-width: 800px;
+  max-width: 800px;
   text-align: center;
   margin: 0 auto;
 }
@@ -59,4 +61,30 @@ nav ul a {
 }
 .banner-description {
   color: #727272;
+}
+
+.banner img {
+  margin-top: 20px;
+  width: 100%;
+
+  /* Responsive Media screen */
+  /* Mobile Devices */
+}
+@media screen and (max-width: 576px) {
+  header {
+    padding: 20px;
+  }
+  nav {
+    flex-direction: column;
+  }
+}
+
+/* Tablet or medium devices */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  header {
+    padding: 50px;
+  }
+  nav {
+    flex-direction: column;
+  }
 }
