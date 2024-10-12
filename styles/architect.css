@@ -1,8 +1,19 @@
 /* Work sans font from google */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
+/* Shared Styles */
+
 * {
   font-family: "Work Sans", sans-serif;
+}
+.btn-primary {
+  color: #fff;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 8px;
+  background: #ff900e;
+  padding: 20px 24px;
 }
 
 /* Header styles */
@@ -33,4 +44,19 @@ nav ul a {
   font-size: 1rem;
   font-weight: 500;
   line-height: 26px;
+}
+
+/* Banner styles */
+.banner-content {
+  min-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+.banner-title {
+  color: #131313;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.banner-description {
+  color: #727272;
 }
